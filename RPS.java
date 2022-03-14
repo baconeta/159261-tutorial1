@@ -20,6 +20,10 @@ public class RPS {
       } else {
         System.out.println("It was a draw... go again!");
       }
+
+      System.out.println("Computer: " + compScore);
+      System.out.println("You: " + playerScore);
+      System.out.println();
     }
     if (playerScore == 3) System.out.println("You win!");
     if (compScore == 3) System.out.println("You lose!");
